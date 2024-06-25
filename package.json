@@ -1,7 +1,7 @@
 {
-	"name": "@igor.dvlpr/$pkg",
+	"name": "@igor.dvlpr/jmap",
 	"version": "1.0.0",
-	"description": "$desc",
+	"description": "🕶️ Reads a JSON file into a Map. 🌻",
 	"sideEffects": false,
 	"engines": {
 		"node": ">=20.0"
@@ -19,20 +19,26 @@
 		"pub": "npm test && npm run build && npm publish --access public"
 	},
 	"keywords": [
-		$tags,
+		"json",
+		"map",
+		"utility",
+		"es6",
+		"data",
+		"file",
+		"file-system",
 		"igorskyflyer",
 		"igor.dvlpr"
 	],
 	"license": "MIT",
 	"author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
 	"funding": "https://ko-fi.com/igorskyflyer",
-	"homepage": "https://github.com/igorskyflyer/$repo",
+	"homepage": "https://github.com/igorskyflyer/npm-jmap",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/igorskyflyer/$repo.git"
+		"url": "https://github.com/igorskyflyer/npm-jmap.git"
 	},
 	"bugs": {
-		"url": "https://github.com/igorskyflyer/$repo/issues"
+		"url": "https://github.com/igorskyflyer/npm-jmap/issues"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.8.2",
