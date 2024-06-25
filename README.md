@@ -50,7 +50,7 @@ Reads a JSON file into a Map.
 
 ***Throws*** an exception if the file cannot be read or there is an error while parsing the JSON file.  
 
- Returns Map with all JSON properties and values.
+ Returns `Map` with all JSON properties and values.
 
 <br>
 
