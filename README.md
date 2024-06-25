@@ -48,25 +48,25 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 ## 🧬 Related
 
-[]()
+[@igor.dvlpr/zep](https://www.npmjs.com/package/@igor.dvlpr/zep)
 
-> __
+> _🧠 Zep is a zero-dependency, efficient debounce module. ⏰_
 
-[]()
+[@igor.dvlpr/pathexists](https://www.npmjs.com/package/@igor.dvlpr/pathexists)
 
-> __
+> _🧲 Provides ways of properly checking if a path exists inside a given array of files/directories both on Windows and UNIX-like operating systems. 🗺_
 
-[]()
+[@igor.dvlpr/adblock-filter-counter](https://www.npmjs.com/package/@igor.dvlpr/adblock-filter-counter) 
 
-> __
+> _🐲 A dead simple npm module that counts Adblock filter rules.🦘_
 
-[]()
+[@igor.dvlpr/mp3size](https://www.npmjs.com/package/@igor.dvlpr/mp3size)
 
-> __
+> _🧮 Calculates an estimated file size of Mp3 files. 🎶_
 
-[]()
+[@igor.dvlpr/odin](https://www.npmjs.com/package/@igor.dvlpr/odin)
 
-> __
+> _🔱 Odin is an Object wrapper that allows you to create objects and set their attributes - all at once! 🔺_
 
 <br>
 <br>
