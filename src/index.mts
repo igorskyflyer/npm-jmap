@@ -6,6 +6,12 @@ interface JsonObject {
 	[index: string]: any
 }
 
+/**
+ * Reads a JSON file into a Map.
+ * @param path Path to the JSON file.
+ * @throws Throws an exception if the file cannot be read or there is an error while parsing the JSON file.
+ * @returns A Map with all JSON properties and values.
+ */
 export function jMap(path: string): Map<string, any> {
 	if (typeof path !== 'string') {
 		throw 'No valid path provided.'
