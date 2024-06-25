@@ -1,5 +1,5 @@
-# $project
-$desc
+# jMap
+🕶️ Reads a JSON file into a Map. 🌻
 
 
 <br>
@@ -31,7 +31,7 @@ $desc
 Install it by executing:
 
 ```shell
-npm i "@igor.dvlpr/$pkg"
+npm i "@igor.dvlpr/jmap"
 ```
 
 <br>
@@ -42,7 +42,7 @@ npm i "@igor.dvlpr/$pkg"
 
 ## 🪪 License
 
-Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/$repo/blob/main/LICENSE).
+Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/npm-jmap/blob/main/LICENSE).
 
 ---
 
