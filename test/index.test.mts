@@ -2,7 +2,7 @@
 
 import { describe, test } from 'vitest'
 
-describe('🧪 $project tests 🧪', () => {
+describe('🧪 jMap tests 🧪', () => {
   test('#1 should ', () => {
 
   }) // #1
