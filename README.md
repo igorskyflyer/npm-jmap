@@ -38,6 +38,35 @@ npm i "@igor.dvlpr/jmap"
 
 ## 🤹🏼 API
 
+```jMap(path: string): Map<string, any>```
+
+Reads a JSON file into a Map.
+
+<br>
+
+```path: string``` - path to the JSON file, **required**.  
+
+<br>
+
+***Throws*** an exception if the file cannot be read or there is an error while parsing the JSON file.  
+
+ Returns Map with all JSON properties and values.
+
+<br>
+
+`demo.ts`
+
+```ts
+import { jMap } from '@igor.dvlpr/jmap'
+
+const sample: Map<string, any> = jMap('./test/data/sample.json')
+
+console.log(sample.get('glossary').title) // 'example glossary'
+
+```
+
+> The used sample JSON file is located here, [JSON sample](https://github.com/igorskyflyer/npm-jmap/blob/main/test/data/sample.json).
+
 ---
 
 ## 🪪 License
