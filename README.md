@@ -1,39 +1,61 @@
-# jMap
-🕶️ Reads a JSON file into a Map. 🌻
-
-
-<br>
-<br>
-
 <div align="center">
-	<blockquote>
-		<h4>💖 Support further development</h4>
-		<span>I work hard for every project, including this one and your support means a lot to me!
-		<br>
-		Consider buying me a coffee. ☕
-		<br>
-		<strong>Thank you for supporting my efforts! 🙏😊</strong></span>
-		<br>
-		<br>
-		<a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="150"></a>
-		<br>
-		<br>
-		<a href="https://github.com/igorskyflyer"><em>@igorskyflyer</em></a>
-		<br>
-		<br>
-	</blockquote>
+  <img src="https://raw.githubusercontent.com/igorskyflyer/npm-jmap/main/media/jmap.png" alt="Icon of jMap" width="256" height="256">
+<h1 align="center">jMap</h1>
 </div>
 
 <br>
 
+<div align="center">
+  🕶️ Reads a JSON file into a Map. 🌻
+</div>
+
+<br>
+<br>
+
+## 📃 Table of Contents
+
+- [Features](#-features)
+- [Usage](#-usage)
+- [API](#-api)
+- [Changelog](#-changelog)
+- [Support](#-support)
+- [License](#-license)
+- [Related](#-related)
+- [Author](#-author)
+
+<br>
+<br>
+
+## 🤖 Features
+
+- 📂 Load any valid JSON file into memory instantly
+- 🗺️ Get all properties as a ready‑to‑use Map
+- 🎯 Access values quickly by key lookup
+- 🧩 Works with any JSON structure, flat or nested
+- 🚫 Clear errors if file is missing or invalid
+- ⚡ Fast, synchronous execution for small to medium files
+- 🔍 Retains exact JSON keys and values with no transformation
+
+<br>
+<br>
+
 ## 🕵🏼 Usage
 
-Install it by executing:
+Install it by executing any of the following, depending on your preferred package manager:
 
-```shell
-npm i "@igor.dvlpr/jmap"
+```bash
+pnpm add @igorskyflyer/jmap
 ```
 
+```bash
+yarn add @igorskyflyer/jmap
+```
+
+```bash
+npm i @igorskyflyer/jmap
+```
+
+<br>
 <br>
 
 ## 🤹🏼 API
@@ -57,9 +79,9 @@ Reads a JSON file into a Map.
 `demo.ts`
 
 ```ts
-import { jMap } from '@igor.dvlpr/jmap'
+import { jMap } from '@igorskyflyer/jmap'
 
-const sample: Map<string, any> = jMap('./test/data/sample.json')
+const sample: Map<string, unknown> = jMap('./test/data/sample.json')
 
 console.log(sample.get('glossary').title) // 'example glossary'
 
@@ -67,39 +89,65 @@ console.log(sample.get('glossary').title) // 'example glossary'
 
 > The used sample JSON file is located here, [JSON sample](https://github.com/igorskyflyer/npm-jmap/blob/main/test/data/sample.json).
 
----
+<br>
+<br>
+
+## 📝 Changelog
+
+📑 The changelog is available here, [CHANGELOG.md](https://github.com/igorskyflyer/npm-jmap/blob/main/CHANGELOG.md).
+
+<br>
+<br>
 
 ## 🪪 License
 
-Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/npm-jmap/blob/main/LICENSE).
+Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/npm-jmap/blob/main/LICENSE.txt).
 
----
+<br>
+<br>
+
+## 💖 Support
+
+<div align="center">
+  I work hard for every project, including this one and your support means a lot to me!
+  <br>
+  Consider buying me a coffee. ☕
+  <br>
+  <br>
+  <a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="180" height="46"></a>
+  <br>
+  <br>
+  <em>Thank you for supporting my efforts!</em> 🙏😊
+</div>
+
+<br>
+<br>
 
 ## 🧬 Related
 
-[@igor.dvlpr/zep](https://www.npmjs.com/package/@igor.dvlpr/zep)
+[@igorskyflyer/zep](https://www.npmjs.com/package/@igorskyflyer/zep)
 
 > _🧠 Zep is a zero-dependency, efficient debounce module. ⏰_
 
-[@igor.dvlpr/pathexists](https://www.npmjs.com/package/@igor.dvlpr/pathexists)
+[@igorskyflyer/pathexists](https://www.npmjs.com/package/@igorskyflyer/pathexists)
 
 > _🧲 Provides ways of properly checking if a path exists inside a given array of files/directories both on Windows and UNIX-like operating systems. 🗺_
 
-[@igor.dvlpr/adblock-filter-counter](https://www.npmjs.com/package/@igor.dvlpr/adblock-filter-counter) 
+[@igorskyflyer/adblock-filter-counter](https://www.npmjs.com/package/@igorskyflyer/adblock-filter-counter) 
 
 > _🐲 A dead simple npm module that counts Adblock filter rules.🦘_
 
-[@igor.dvlpr/mp3size](https://www.npmjs.com/package/@igor.dvlpr/mp3size)
+[@igorskyflyer/mp3size](https://www.npmjs.com/package/@igorskyflyer/mp3size)
 
 > _🧮 Calculates an estimated file size of Mp3 files. 🎶_
 
-[@igor.dvlpr/odin](https://www.npmjs.com/package/@igor.dvlpr/odin)
+[@igorskyflyer/odin](https://www.npmjs.com/package/@igorskyflyer/odin)
 
 > _🔱 Odin is an Object wrapper that allows you to create objects and set their attributes - all at once! 🔺_
 
 <br>
 <br>
+<br>
 
->
-> Provided by **Igor Dimitrijević** ([*@igorskyflyer*](https://github.com/igorskyflyer/)).
->
+## 👨🏻‍💻 Author
+Created by **Igor Dimitrijević** ([*@igorskyflyer*](https://github.com/igorskyflyer/)).
