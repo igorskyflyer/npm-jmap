@@ -60,7 +60,7 @@ npm i @igorskyflyer/jmap
 
 ## 🤹🏼 API
 
-```jMap(path: string): Map<string, any>```
+```jMap(path: string): Map<string, unknown>```
 
 Reads a JSON file into a Map.
 
