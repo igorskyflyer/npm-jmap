@@ -1,49 +1,52 @@
 {
-	"name": "@igor.dvlpr/jmap",
-	"version": "1.0.0",
-	"description": "🕶️ Reads a JSON file into a Map. 🌻",
-	"sideEffects": false,
-	"engines": {
-		"node": ">=20.0"
-	},
-	"types": "./dist/index.d.mts",
-	"main": "./dist/index.mjs",
-	"module": "./dist/index.mjs",
-	"files": [
-		"dist"
-	],
-	"scripts": {
-		"build": "tsc",
-		"test": "vitest --run",
-		"debug": "vitest",
-		"pub": "npm test && npm run build && npm publish --access public"
-	},
-	"keywords": [
-		"json",
+    "name": "@igorskyflyer/jmap",
+    "version": "1.0.1",
+    "description": "🕶️ Reads a JSON file into a Map. 🌻",
+    "sideEffects": false,
+    "engines": {
+        "node": ">=22.0"
+    },
+    "type": "module",
+    "types": "./dist/index.d.ts",
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "vitest --run",
+        "pub": "pnpm test && git push origin main --tags"
+    },
+    "keywords": [		"json",
 		"map",
 		"utility",
 		"es6",
 		"data",
 		"file",
 		"file-system",
-		"igorskyflyer",
-		"igor.dvlpr"
-	],
-	"license": "MIT",
-	"author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
-	"funding": "https://ko-fi.com/igorskyflyer",
-	"homepage": "https://github.com/igorskyflyer/npm-jmap",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/igorskyflyer/npm-jmap.git"
-	},
-	"bugs": {
-		"url": "https://github.com/igorskyflyer/npm-jmap/issues"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "^1.8.2",
-		"@types/node": "^20.14.8",
-		"typescript": "^5.5.2",
-		"vitest": "^1.6.0"
-	}
+        "igorskyflyer"
+    ],
+    "license": "MIT",
+    "author": "Igor Dimitrijević <support@igorskyflyer.me> (https://github.com/igorskyflyer)",
+    "funding": "https://ko-fi.com/igorskyflyer",
+    "homepage": "https://github.com/igorskyflyer/npm-jmap",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/igorskyflyer/npm-jmap.git"
+    },
+    "bugs": {
+        "url": "https://github.com/igorskyflyer/npm-jmap/issues"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^2.2.0",
+        "@igor.dvlpr/biome-config-igorskyflyer": "^2.0.1",
+        "@types/node": "^22.17.2",
+        "typescript": "^5.9.2",
+        "vitest": "^3.2.4"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "packageManager": "pnpm@10.15.0"
 }
