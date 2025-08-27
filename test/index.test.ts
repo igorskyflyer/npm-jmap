@@ -4,7 +4,7 @@
 // https://json.org/example.html
 
 import { assert, describe, test } from 'vitest'
-import { jMap } from '../src/index.mjs'
+import { jMap } from '../src/index.ts'
 
 describe('🧪 jMap tests 🧪', () => {
 	test('#1 should throw', () => {
