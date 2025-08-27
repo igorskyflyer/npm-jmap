@@ -3,7 +3,7 @@
 import { existsSync, readFileSync } from 'node:fs'
 
 interface JsonObject {
-	[index: string]: any
+  [index: string]: unknown
 }
 
 /**
@@ -12,26 +12,26 @@ interface JsonObject {
  * @throws Throws an exception if the file cannot be read or there is an error while parsing the JSON file.
  * @returns A Map with all JSON properties and values.
  */
-export function jMap(path: string): Map<string, any> {
-	if (typeof path !== 'string') {
-		throw 'No valid path provided.'
-	}
+export function jMap(path: string): Map<string, unknown> {
+  if (typeof path !== 'string') {
+    throw new Error('No valid path provided.')
+  }
 
-	if (!existsSync(path)) {
-		throw "File doesn't exist."
-	}
+  if (!existsSync(path)) {
+    throw new Error("File doesn't exist.")
+  }
 
-	try {
-		const contents: string = readFileSync(path, 'utf-8')
-		const json: JsonObject = JSON.parse(contents)
-		const map: Map<string, any> = new Map()
+  try {
+    const contents: string = readFileSync(path, 'utf-8')
+    const json: JsonObject = JSON.parse(contents)
+    const map: Map<string, unknown> = new Map()
 
-		for (const prop in json) {
-			map.set(prop, json[prop])
-		}
+    for (const prop in json) {
+      map.set(prop, json[prop])
+    }
 
-		return map
-	} catch {
-		throw "Couldn't convert the provided JSON file into a Map."
-	}
+    return map
+  } catch {
+    throw new Error("Couldn't convert the provided JSON file into a Map.")
+  }
 }
