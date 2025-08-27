@@ -1,11 +1,11 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/igorskyflyer/npm-jmap/main/media/jmap.png" alt="Icon of jMap" width="256" height="256">
-<h1 align="center">jMap</h1>
+  <h1>jMap</h1>
 </div>
 
 <br>
 
-<h3 align="center">🕶️ Reads a JSON file into a Map. 🌻</h3>
+<h4 align="center">🕶️ Reads a JSON file into a Map. 🌻</h4>
 
 <br>
 <br>
