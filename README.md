@@ -5,9 +5,7 @@
 
 <br>
 
-<div align="center">
-  🕶️ Reads a JSON file into a Map. 🌻
-</div>
+<h3 align="center">🕶️ Reads a JSON file into a Map. 🌻</h3>
 
 <br>
 <br>
